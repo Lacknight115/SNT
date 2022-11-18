@@ -1,0 +1,70 @@
+body{
+    background-color: #2f3e46;
+}
+
+a { 
+    color: #cad2c5; 
+}
+
+a:visited{
+    color: #cad2c5;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 7.5px;
+    margin-top: 10px;
+}
+
+.title1{
+    color: #cad2c5;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.title2{
+    color: #cad2c5;
+    text-align: center;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.video{
+    border-radius: 20px;
+    margin-left: 14%;
+    margin-top: 5px;
+}
+
+.photo{
+    width: 275px;
+    border-radius: 20px;
+    margin-left: 215px;
+    margin-top: 5px;
+}
+
+.box-global{
+    display: flex;
+}
+
+.box1{
+    background-color: #354f52;
+    width: 700px;
+    height: 475px;
+    margin-top: 125px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-left: auto;
+}
+
+.box2{
+    background-color: #354f52;
+    width: 700px;
+    height: 475px;
+    margin-top: 125px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    margin-right: auto;
+}

@@ -1,127 +1,31 @@
-body{
-    background-color: #2f3e46;
-}
-
-a { 
-    color: #cad2c5; 
-}
-
-a:visited{
-    color: #cad2c5;
-}
-
-a:hover{
-    color: #888b85;
-}
-
-.text{
-    color: white;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 7.5px;
-    margin-top: 10px;
-}
-
-.title1{
-    color: #cad2c5;
-    text-align: center;
-    font-size: 50px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-
-.title2{
-    color: #cad2c5;
-    text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-
-.video{
-    border-radius: 20px;
-    margin-left: 14%;
-    margin-top: 0px;
-}
-
-.photo{
-    width: 275px;
-    border-radius: 20px;
-    margin-left: 215px;
-    margin-top: 30px;
-}
-
-.box-global{
-    display: flex;
-}
-
-.box1{
-    background-color: #354f52;
-    width: 700px;
-    height: 475px;
-    margin-top: 125px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    margin-left: auto;
-}
-
-.box2{
-    background-color: #354f52;
-    width: 700px;
-    height: 475px;
-    margin-top: 125px;
-    margin-left: 50px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
-    margin-right: auto;
-}
-
-@media screen and (max-width: 768px){
-    .title1{
-        width: 345px;
-        text-align: center;
-        font-size: 30px;
-
-    }
-
-    .box1{
-        width: 325px;
-        height: 400px;
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    .box2{
-        width: 325px;
-        height: 400px;
-        margin-left: 10px;
-        margin-top: 30px;
-    }
-
-    .box-global{
-        flex-direction: column-reverse;
-    }
-
-    .title2{
-        font-size: 25px;
-    }
-
-    .text{
-        font-size: 15px;
-        text-align: center;
-        margin-left: 7.5px;
-        margin-top: 10px;
-    }
-
-    .video{
-        width: 250px;
-        height: 125px;
-        margin-left: 11%;
-        margin-top: 20px;
-    }
-
-    .photo{
-        width: 175px;
-        border-radius: 20px;
-        margin-left: 22%;
-        margin-top: 20px;
-    }
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link class="icon" rel="icon" type="image.png" href="assets/banana-rond.png"/>
+    <title>La VERITE !!</title>
+</head>
+<body>
+    <a href="https://github.com/Lacknight115"><img src="assets/gitub.png" height="50"></a>
+    <h1 class="title1">Pourquoi la <a href="https://fr.wikipedia.org/wiki/Banane" target="_blank">banane</a> est meilleure que le <a href="https://fr.wikipedia.org/wiki/Kiwi" target="_blank">kiwi</a> ?</h1>
+    <div class="box-global">
+        <div class="box1">
+            <h2 class="title2">D'un point de vue nutritionnel.</h2>
+            <p class="text">Le kiwi et la banane sont riches en fibres alimentaires et en potassium seulement
+                la banane contient plus d'alpha-carotène, de riboflavine, de niacine et de vitamine B6 que le kiwi.
+                 La banane est également plus simple à éplucher.</p>
+            <iframe width="500" height="281.25" src="https://www.youtube.com/embed/TYAZHDku_Ts" class="video" title="Vive La Banane" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="box2">
+            <h2 class="title2">D'un point de vue esthétique.</h2>
+            <p class="text">La banane est magnifique avec une séduisante couleur jaune faisant 
+                penser au Soleil symbole du bonheur alors que lui le kiwi à une couleur verte 
+                souvent associé à la maladie.</p>
+            <a href="https://www.youtube.com/watch?v=Hsn2D9rp_pY" target="_blank"><img class="photo" src="assets/banana-vrai.png"></a>
+        </div>
+    </div>
+</body>
+</html>

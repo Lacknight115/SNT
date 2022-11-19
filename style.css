@@ -73,3 +73,55 @@ a:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
     margin-right: auto;
 }
+
+@media screen and (max-width: 768px){
+    .title1{
+        width: 345px;
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    .box1{
+        width: 325px;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .box2{
+        width: 325px;
+        height: 400px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .box-global{
+        flex-direction: column-reverse;
+    }
+
+    .title2{
+        font-size: 25px;
+    }
+
+    .text{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 7.5px;
+        margin-top: 10px;
+    }
+
+    .video{
+        width: 250px;
+        height: 125px;
+        margin-left: 11%;
+        margin-top: 20px;
+    }
+
+    .photo{
+        width: 175px;
+        border-radius: 20px;
+        margin-left: 22%;
+        margin-top: 20px;
+    }
+}
